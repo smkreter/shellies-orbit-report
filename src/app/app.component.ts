@@ -9,7 +9,7 @@ let sourceList: Satellite[];
 })
 export class AppComponent {
   title = 'shellies-orbit-report';
-  
+  sourceList: Satellite[];
   constructor() {
     this.sourceList = [
        new Satellite("SiriusXM", "Communication", "2009-03-21", "LOW", true),
